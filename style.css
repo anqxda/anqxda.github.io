@@ -4,6 +4,7 @@
     margin-top: -20px;
     margin-left: -9px;
     margin-right: -9px;
+    padding-left: 130px;
     position: sticky;
     flex-direction: row;
     display: flex;
@@ -13,11 +14,10 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: left;
     padding-top: 15px;
-    padding-left: 130px;
 }
 
 .Profile {
-    padding-left: 580px;
+    padding-left: 550px;
     padding-top: 20px;
     color: rgb(255, 255, 255);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -42,14 +42,39 @@
 
 .Contact {
     color: aliceblue;
-    padding-left: 90px;
+    padding-left: 70px;
     padding-top: 12px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     letter-spacing: 0.7px;
 }
 .Contact h3 {
     color: rgb(40, 34, 34);
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(218, 157, 17);
+
     border-radius: 10px;
     padding: 10px;
+}
+
+.page-1 {
+    flex-direction: row;
+    background-color: rgb(216, 213, 206);
+    width: 2000px;
+    height: 600px;
+    margin-left: -9px;
+    display: flex;
+}
+
+.Hi {
+    padding-left: 200px;
+    padding-top: 190px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(19, 19, 19);
+    line-height: 20px;
+    font-size: x-large;
+}
+
+.image img {
+    width: 450px;
+    height: 600px;
+    padding-left: 400px;
 }
