@@ -16,8 +16,40 @@
     padding-left: 130px;
 }
 
-.head h4 {
-    padding-left: 700px;
+.Profile {
+    padding-left: 580px;
     padding-top: 20px;
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1px;
+}
+
+.Activity {
     color: aliceblue;
+    padding-left: 70px;
+    padding-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1px;
+}
+
+.Certificates {
+    color: aliceblue;
+    padding-left: 70px;
+    padding-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1px;
+}
+
+.Contact {
+    color: aliceblue;
+    padding-left: 90px;
+    padding-top: 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 0.7px;
+}
+.Contact h3 {
+    color: rgb(40, 34, 34);
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 10px;
 }
