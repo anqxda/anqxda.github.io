@@ -191,7 +191,7 @@
 .Contact-me{
     margin-top: 45px;
     margin-bottom: 20px;
-    margin-left: 90px;
+    margin-left: 130px;
     display: flex;
     flex-direction: row;
 }
@@ -203,17 +203,39 @@
 .IG h1{
     margin-left: 300px;
     margin-bottom: 60px;
+    padding-top: 30px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
 
+.line-2{
+    margin-top: 70px;
+}
 .line-1{
     margin-top: 40px;
-    width: 900px;
+    width: 1200px;
 }
 .email h1{
-    margin-top: 50px;
+    margin-top: 57px;
     margin-left: 150px;
     margin-bottom: 60px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.number h1{
+    margin-top: 57px;
+    margin-left: 220px;
+    margin-bottom: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.Github h1{
+    margin-top: 57px;
+    margin-left: 260px;
+    margin-bottom: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.Github hr {
+    width: 1200px;
+    margin-left: -16px;
 }
