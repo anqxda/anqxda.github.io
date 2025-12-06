@@ -1,11 +1,12 @@
 .head {
     background-color: rgb(31, 26, 26);
     height: 90px;
+    width: 2000px;
     margin-top: -20px;
     margin-left: -9px;
     margin-right: -9px;
     padding-left: 130px;
-    position: sticky;
+    position: fixed;
     flex-direction: row;
     display: flex;
 }
@@ -69,7 +70,7 @@
     background-color: black;
 }
 .Hi {
-    padding-left: 200px;
+    padding-left: 350px;
     padding-top: 180px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: rgb(19, 19, 19);
@@ -86,14 +87,15 @@
 .image img {
     width: 960px;
     height: 550px;
-    padding-left: 50px;
+    padding-left: px;
     padding-top: 36px;
+    margin-left: -200px;
 }
 
 .page-2{
     background-color:rgb(248, 182, 68);
     width: 1800px;
-    height: 1000px;
+    height: 1020px;
     margin-left: -9px;
     margin-right: -9px;
     display: flex;
@@ -129,8 +131,89 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     display: flex;
     flex-direction: column;
+    color: rgb(27, 29, 31);
 }
 
 .Nuu-head {
-    padding-left: 165px;
+    padding-left: 105px;
+    font-size: x-large;
+}
+
+.page-3{
+    background-color: rgb(45, 40, 40);
+    width: 1800px;
+    height: 1000px;
+    margin-top: -22px;
+    margin-left: -9px;
+    margin-right: -9px;
+    display: flex;
+    flex-direction: column;
+}
+
+.h-page-3{
+    margin-left: 580px;
+    margin-top: 30px;
+    font-size: xx-large;
+    color: rgb(237, 167, 46);
+}
+.h-page-3 h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.row-1 img{
+    width: 360px;
+    margin-left: 55px;
+    margin-top: 30px;
+    border: solid 4px  rgba(218, 159, 24, 0.811);
+    border-radius: 20px;
+}
+.row-1 .first{
+    margin-left: 145px;
+}
+.row-2 img{
+    width: 360px;
+    margin-left: 55px;
+    margin-top: 100px;
+    border: solid 4px rgba(218, 159, 24, 0.811);
+    border-radius: 20px;
+}
+
+.row-2 .second{
+    margin-left: 145px;
+}
+
+
+
+
+
+
+/* page 2 */
+.Contact-me{
+    margin-top: 45px;
+    margin-bottom: 20px;
+    margin-left: 90px;
+    display: flex;
+    flex-direction: row;
+}
+.img-me img {
+    border: solid 2px black ;
+    border-radius: 100px;
+    width: 550px;
+}
+.IG h1{
+    margin-left: 300px;
+    margin-bottom: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.line-1{
+    margin-top: 40px;
+    width: 900px;
+}
+.email h1{
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-bottom: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
