@@ -1,4 +1,23 @@
-.head{
+.head {
+    background-color: rgb(31, 26, 26);
+    height: 90px;
+    margin-top: -20px;
+    margin-left: -9px;
+    margin-right: -9px;
+    position: sticky;
+    flex-direction: row;
+    display: flex;
+}
+
+.head h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
+    text-align: left;
+    padding-top: 15px;
+    padding-left: 130px;
+}
+
+.head h4 {
+    padding-left: 700px;
+    padding-top: 20px;
+    color: aliceblue;
 }
